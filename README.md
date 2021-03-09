@@ -7,6 +7,5 @@ Use CNN Architecture for Build Covid-19 Classification Model from X-ray Images a
  * Normal data from this Kaggle : [normal] (https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia) <br>
 
 ## Some Propose Model
- Follow this link : [sharing model] (https://drive.google.com/drive/folders/1PohYcNMkky6X1F_luz3Av6wWWR0fGvW5)
-
+ This project is on going but follow this link for some model completely : [sharing model] (https://drive.google.com/drive/folders/1PohYcNMkky6X1F_luz3Av6wWWR0fGvW5)
 

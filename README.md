@@ -19,15 +19,14 @@ Use CNN Architecture for Build Covid-19 Classification Model from X-ray Images a
  | Testing   |    260   |  260   |  520  |
  | Total     |    867   |  867   |  1734 |
  
- After I already complete with training and testing data, I follow process below
- 
+ After I already complete with training and testing data, I follow these processes below <br>
  * Image Augmentation
  * Image Enhancement
  * Image resizing
  * Normalization
- 
+ <br>
  * Image Augmentation
-   Augmentation with rotate, crop and filp images and get new data set in this table
+   Augmentation with rotate, crop and filp images and get new data set in this table <br>
  | Dataset   | Covid-19 | Normal | Total |
  | --------  | -------- | ------ | ----- |
  | Training  |    3035  |  3035  |  6070 |

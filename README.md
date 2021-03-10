@@ -46,9 +46,9 @@ Model 2 fit with Augmentation&Enhancement data <br>
 
 Model 1 train and loss when training <br>
 
-<img src="imageForDoc/model1_trainAcc.png.jpg" width="500"/>
+<img src="imageForDoc/model1_trainAcc.png." width="500"/>
 
-<img src="imageForDoc/model1_trainLoss.png.jpg" width="500"/>
+<img src="imageForDoc/model1_trainLoss.png." width="500"/>
 
 Model 2 train and loss when training <br>
 
@@ -72,15 +72,16 @@ Now use testing data for predict Covid-19 <br>
 Class 0 : Normal, Class 1 : Covid-19 <br>
 
 Model 1 Confusion Matrix <br>
-<img src="imageForDoc/model1_cm.png" width="500"/> <br>
+<img src="imageForDoc/model1_cm.png" width="400"/> <br>
 
 Model 2 Confusion Matrix <br>
-<img src="imageForDoc/model2_cm.png" width="500"/> <br>
+<img src="imageForDoc/model2_cm.png" width="400"/> <br>
 
+Here is Classification Report of 2 models
  |  Model  | Accuracy | Recall  | Precision | F1-Score |
  | ------- | -------- | ------- | --------- | -------- |
  | Model 1 |  80.7692 | 83.8461 |  78.9855  | 81.3432  |
  | Model 2 |   82.5   | 78.0769 |  85.654   | 81.6901  |
-
-##Summary
+ 
+## Summary
 Now, I think Model 2 is better than Model 1 in overall.

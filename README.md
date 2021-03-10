@@ -57,11 +57,13 @@ Model 2 train and loss when training <br>
 <img src="imageForDoc/model2_trainLoss.png" width="500"/>
 
 Then I got average accuracy and loss of 2 models from 20 epochs here <br>
+<pre>
 Model 1 : average accuracy training : 95.28% and average loss training  : 0.2034 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: average accuracy validation : 88.36% and average loss validation  : 0.5373 <br>
+        : average accuracy validation : 88.36% and average loss validation  : 0.5373 <br>
 
 Model 2 : average accuracy training : 98.49% and average loss training  : 0.0545 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: average accuracy validation : 92.68% and average loss validation  : 0.3991 <br>		
+        : average accuracy validation : 92.68% and average loss validation  : 0.3991 <br>		
+</pre>
 
 Evaluate Model with testing data <br>
 Model 1 got accuracy : 80.769%  and loss : 483.665 <br>

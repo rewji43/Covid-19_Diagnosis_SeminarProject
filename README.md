@@ -24,9 +24,11 @@ Use CNN Architecture for Build Covid-19 Classification Model from X-ray Images a
  * Image Enhancement
  * Image resizing
  * Normalization
- <br>
+
+ 
  * Image Augmentation
-   Augmentation with rotate, crop and filp images and get new data set in this table <br>
+ Augmentation with rotate, crop and filp images and get new data set in this table <br>
+ 
  | Dataset   | Covid-19 | Normal | Total |
  | --------  | -------- | ------ | ----- |
  | Training  |    3035  |  3035  |  6070 |
@@ -34,13 +36,13 @@ Use CNN Architecture for Build Covid-19 Classification Model from X-ray Images a
  | Total     |    3295  |  3295  |  6590 |
  
  * Image Augmentation 
-   I assumed histogram equalization will help a little bit then I try to use it
+ I assumed histogram equalization will help a little bit then I try to use it
    
  * Image resizing
-   In this project, I resize it into 400*400 because images in data set have various size.
+ In this project, I resize it into 400*400 because images in data set have various size.
  
  * Normalization
-   I try to use data/ 255.0 in this project.
+ I try to use data/ 255.0 in this project.
 
 ## Building Model
  

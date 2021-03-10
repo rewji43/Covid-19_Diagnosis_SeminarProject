@@ -19,7 +19,7 @@ Use CNN Architecture for Build Covid-19 Classification Model from X-ray Images a
  | Testing   |    260   |  260   |  520  |
  | Total     |    867   |  867   |  1734 |
  
- <br>After I already complete with training and testing data, I follow these processes below. <br>
+ <br>After I already complete with training and testing data, I follow these processes before building model. <br>
 
  * Image Augmentation
  Augmentation with rotate, crop and filp images and get new data set in this table. <br>
@@ -30,13 +30,13 @@ Use CNN Architecture for Build Covid-19 Classification Model from X-ray Images a
  | Testing   |    260   |  260   |  520  |
  | Total     |    3295  |  3295  |  6590 |
  
- * Image Augmentation 
+ * Image Augmentation <br>
  I assumed histogram equalization will help a little bit then I try to use it.
    
- * Image resizing
+ * Image resizing <br>
  In this project, I resize it into 400*400 because images in data set have various size.
  
- * Normalization
+ * Normalization <br>
  I try to use data/ 255.0 in this project.
 
 ## Building Model
@@ -46,9 +46,9 @@ Model 2 fit with Augmentation&Enhancement data <br>
 
 Model 1 train and loss when training <br>
 
-<img src="imageForDoc/model1_trainAcc.png." width="500"/>
+<img src="imageForDoc/model1_trainAcc.png" width="500"/>
 
-<img src="imageForDoc/model1_trainLoss.png." width="500"/>
+<img src="imageForDoc/model1_trainLoss.png" width="500"/>
 
 Model 2 train and loss when training <br>
 
@@ -58,10 +58,10 @@ Model 2 train and loss when training <br>
 
 Then I got average accuracy and loss of 2 models from 20 epochs here <br>
 Model 1 : average accuracy training : 95.28% and average loss training  : 0.2034 <br>
-        : average accuracy validation : 88.36% and average loss validation  : 0.5373 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: average accuracy validation : 88.36% and average loss validation  : 0.5373 <br>
 
 Model 2 : average accuracy training : 98.49% and average loss training  : 0.0545 <br>
-        : average accuracy validation : 92.68% and average loss validation  : 0.3991 <br>		
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: average accuracy validation : 92.68% and average loss validation  : 0.3991 <br>		
 
 Evaluate Model with testing data <br>
 Model 1 got accuracy : 80.769%  and loss : 483.665 <br>

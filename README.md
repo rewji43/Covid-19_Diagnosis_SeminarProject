@@ -30,7 +30,7 @@ Use CNN Architecture for Build Covid-19 Classification Model from X-ray Images a
  | Testing   |    260   |  260   |  520  |
  | Total     |    3295  |  3295  |  6590 |
  
- * Image Augmentation <br>
+ * Image Enhancement <br>
  I assumed histogram equalization will help a little bit then I try to use it.
    
  * Image resizing <br>

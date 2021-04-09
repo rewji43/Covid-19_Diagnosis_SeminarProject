@@ -86,3 +86,22 @@ Here is Classification Report of 2 models
  
 ## Summary
 Now, I think Model 2 is better than Model 1 in overall.
+
+## New Result
+Model 3 : Use VGG16 architecture and SGD with momentum:lr=0.01, beta= 0.09  <br>
+average accuracy training : 92.93% and average loss training  : 0.1458 <br>
+average accuracy validation : 92.15% and average loss validation  : 0.19522 <br>
+
+Model 3 train and loss when training <br>
+
+<img src="imageForDoc/modelVGG16_train.png" width="500"/>
+
+<img src="imageForDoc/modelVGG16_loss.png" width="500"/>
+
+Model 3 Confusion Matrix <br>
+<img src="imageForDoc/modelVGG16_cm.png" width="400"/> <br>
+
+Here is Classification Report of Model 3
+ |  Model  | Accuracy | Recall  | Precision | F1-Score |
+ | ------- | -------- | ------- | --------- | -------- |
+ | Model 3 |  99.0385 | 98.8462 |  99.2278  | 99.0366  |
